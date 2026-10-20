@@ -5,53 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Monetize Breakthroughs — ΩbscurAI</title>
   <meta name="description" content="Showcase and monetize novel sealed frameworks and agent rentals without revealing trade secrets. Witness, Use, or Hold doors.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' fill='%23c9a227'%3E%CE%A9%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="/epoch.css">
   <style>
-    .doors { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-    .door { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 1rem; padding: 1.5rem; transition: transform 0.2s; }
-    .door:hover { transform: translateY(-4px); border-color: var(--primary); }
-    .door h3 { color: var(--primary); }
+    .doors { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
+    .door { background: var(--bg-card); border: 1px solid var(--border); border-radius: 1rem; padding: 2rem; transition: all 0.3s; }
+    .door:hover { transform: translateY(-4px); border-color: var(--primary); box-shadow: 0 10px 40px rgba(0,0,0,0.3); }
+    .door h3 { color: var(--primary); margin-bottom: 0.5rem; }
+    .price { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+    .section { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
   </style>
 </head>
 <body>
-  <nav class="nav">
-    <a class="nav-brand" href="/"><span class="nav-logo">Ω</span><span class="nav-title">ΩBSCURAI</span></a>
+  <nav class="nav" aria-label="Primary">
+    <a class="nav-brand" href="/">
+      <span class="nav-logo">Ω</span>
+      <span class="nav-title">ΩBSCURAI</span>
+    </a>
     <div class="nav-links">
+      <a href="/tower/">Tower</a>
       <a href="/agents/">Agents</a>
       <a href="/vault/">Vault</a>
-      <a href="/pricing/">Pricing</a>
+      <a href="/pricing.html">Pricing</a>
     </div>
   </nav>
-  <main style="max-width: 1100px; margin: 2rem auto; padding: 1rem;">
-    <h1 class="gradient-text">Showcase & Monetize Sealed Breakthroughs</h1>
-    <p>Novel mathematical frameworks and agents. Results delivered. Methods stay sealed. Build pages, open doors, get paid.</p>
 
-    <div class="doors">
-      <div class="door">
-        <h3>Witness Door</h3>
-        <p>Capped free briefing or demo. Build trust without giving secrets.</p>
-        <a class="btn" href="mailto:vault@obscurai.io?subject=Witness">Open</a>
-      </div>
-      <div class="door">
-        <h3>Use Door</h3>
-        <p>Per-use / hourly agent rentals from low hundreds. Written scope before charge.</p>
-        <a class="btn btn-primary" href="/agents/">Rent Agents</a>
-      </div>
-      <div class="door">
-        <h3>Hold Door</h3>
-        <p>NDA engagements and licenses. Evaluation fees credited. By quote.</p>
-        <a class="btn" href="/license/">License Path</a>
-      </div>
-    </div>
+  <main>
+    <section class="seal-hero">
+      <div class="kicker">Sealed Monetization</div>
+      <h1 class="gradient-text">Showcase & Monetize Breakthroughs</h1>
+      <p>Novel mathematical frameworks and black-box agents. Results and reports delivered. Methods, parameters, and internals stay sealed forever.</p>
+    </section>
 
-    <h2>How we monetize without leaks</h2>
-    <ol>
-      <li>Public claim + proof class only.</li>
-      <li>Black-box delivery of results + report.</li>
-      <li>Sealed material under mutual NDA only.</li>
-      <li>Invoice after written agreement.</li>
-    </ol>
-    <p>Card checkout in progress. Email for now: <a href="mailto:vault@obscurai.io">vault@obscurai.io</a></p>
+    <section class="section">
+      <div class="doors">
+        <div class="door">
+          <h3>Witness Door</h3>
+          <div class="price">$0 · capped</div>
+          <p>One briefing or capped demo per organization. Outputs only — no method, no parameters.</p>
+          <a class="btn btn-ghost" href="mailto:vault@obscurai.io?subject=Witness%20Briefing">Request Briefing</a>
+        </div>
+        <div class="door">
+          <h3>Use Door</h3>
+          <div class="price">from $350 / run</div>
+          <p>Per-use or hourly agent application. Written scope and quote before any work. Results + sealed report.</p>
+          <a class="btn btn-primary" href="/agents/">Rent Agents</a>
+        </div>
+        <div class="door">
+          <h3>Hold Door</h3>
+          <div class="price">by quote · NDA</div>
+          <p>Multi-week engagements or field licenses. Mutual NDA first. Evaluation fees credited toward license.</p>
+          <a class="btn btn-primary" href="/license/">Start License</a>
+        </div>
+      </div>
+
+      <h2>How we monetize without leaks</h2>
+      <ol>
+        <li>Public claim + proof class only (operator notes, pending independent review).</li>
+        <li>Black-box delivery: you get results and a report. Framework stays sealed.</li>
+        <li>Sealed material shared only under signed mutual NDA.</li>
+        <li>Invoice only after written agreement. No charge before scope confirmed.</li>
+      </ol>
+
+      <h2>Current catalogue highlights</h2>
+      <ul>
+        <li><strong>VERDICT</strong> — $350/claim sealed pass/fail with evidence.</li>
+        <li><strong>KEYSTONE</strong> — Certified primality & crypto audits from $750.</li>
+        <li><strong>FiiX Framework</strong> — Compression claims (15k× reported). Briefing or NDA evaluation.</li>
+        <li><strong>AFCD-1.42</strong> — Chiral screen instrument. Watch list $79/mo, Hold from $2,500.</li>
+      </ul>
+
+      <p class="mt-2">Card checkout in progress. For now, email <a href="mailto:vault@obscurai.io">vault@obscurai.io</a> with the door and your need. All paid work confirmed in writing first.</p>
+      <p><a class="btn btn-ghost" href="pricing.html">Full Pricing Overview</a> · <a class="btn btn-ghost" href="/vault/">Browse Vault</a></p>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand"><span class="footer-logo">Ω</span> ΩbscurAI · Obscuria Research Division</div>
+      <div class="footer-tagline">Methods sealed. Results delivered. Belize.</div>
+    </div>
+  </footer>
 </body>
 </html>
