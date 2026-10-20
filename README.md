@@ -1,10 +1,21 @@
 # ΩbscurAI Site Improvements
 
-Prototypes for new pages showcasing and monetizing sealed breakthroughs.
+Prototypes and improvements for the obscurai.io static site.
 
-- new-breakthrough-showcase.html: Template for research showcases with three-door monetization.
-- monetize-hub.html: Central monetization overview.
+## Pages
 
-Deploy to Cloudflare Pages or integrate into existing static site. Match existing /epoch.css design.
+- **monetize-hub.html** — Central overview of Witness / Use / Hold doors and sealed monetization process.
+- **pricing.html** — Detailed pricing cards and agent examples.
+- **new-breakthrough-showcase.html** — Reusable template for new research showcases (replace [Framework Name]).
 
-Methods stay sealed. Results delivered.
+## Design
+
+Matches live site: dark theme (`/epoch.css`), gold/orange gradients, sealed doors language, three-door monetization.
+
+## Deployment
+
+Deploy to Cloudflare Pages (or equivalent) and link from `/tower/`, `/vault/`, or navigation.
+
+Methods stay sealed. Results delivered. Nothing charged before written scope.
+
+Contact: vault@obscurai.io
