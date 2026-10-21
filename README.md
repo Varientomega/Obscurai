@@ -4,12 +4,13 @@ Prototypes and improvements for the obscurai.io static site.
 
 ## Pages
 
+- **index.html** — Improved hub linking all monetization and showcase pages.
 - **monetize-hub.html** — Central overview of Witness / Use / Hold doors, full agent catalogue, and sealed monetization process.
 - **engagement.html** — Clear Brief → Scope → Run → Deliver process.
 - **pricing.html** — Detailed pricing cards and agent examples.
-- **new-breakthrough-showcase.html** — Reusable template for new research showcases (replace [Framework Name]).
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
-- **index.html** — Hub linking all improvements.
+- **new-breakthrough-showcase.html** — Reusable template for new research showcases.
+- **next-breakthrough.html** — Ready-to-customize template for the next sealed framework or agent.
 
 ## Design
 
