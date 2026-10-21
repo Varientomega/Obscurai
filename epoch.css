@@ -1,4 +1,4 @@
-/* === TOWER STYLES === */
+/* === TOWER STYLES — ΩbscurAI === */
 :root {
   --bg: #0a0a0f;
   --bg-elevated: #12121a;
@@ -32,8 +32,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgba(10, 10, 15, 0.9);
-  backdrop-filter: blur(10px);
+  background: rgba(10, 10, 15, 0.95);
+  backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
@@ -66,6 +66,7 @@ body {
 .nav-links {
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -76,7 +77,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: var(--text);
+  color: var(--primary);
 }
 
 /* === HERO / SEAL === */
@@ -152,7 +153,7 @@ body {
 }
 
 /* === CARDS / GRIDS === */
-.card-grid, .doors, .catalogue, .pricing-grid {
+.card-grid, .doors, .catalogue, .pricing-grid, .agents-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
@@ -164,19 +165,20 @@ body {
   border: 1px solid var(--border);
   border-radius: 1rem;
   padding: 1.75rem;
-  transition: transform 0.2s, border-color 0.2s;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
 }
 
-.card:hover, .door:hover, .item:hover, .pricing-card:hover {
+.card:hover, .door:hover, .item:hover, .pricing-card:hover, .agent-item:hover {
   transform: translateY(-4px);
   border-color: var(--primary);
+  box-shadow: 0 8px 30px rgba(201, 162, 39, 0.1);
 }
 
 .highlight, .featured {
   border-color: var(--primary);
 }
 
-.card h3, .door h3, .item h3, .pricing-name, .price-card h3 {
+.card h3, .door h3, .item h3, .pricing-name, .price-card h3, .agent-item h4 {
   color: var(--primary);
   margin-bottom: 0.75rem;
 }
@@ -227,10 +229,24 @@ ol, ul {
 
 li { margin-bottom: 0.5rem; }
 
-a { color: var(--primary); }
+a { color: var(--primary); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+.step {
+  background: var(--bg-card);
+  border-left: 4px solid var(--primary);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+
+.step h3 { color: var(--primary); margin-bottom: 0.5rem; }
 
 @media (max-width: 640px) {
-  .nav { flex-direction: column; gap: 1rem; }
+  .nav { flex-direction: column; gap: 1rem; padding: 1rem; }
+  .nav-links { justify-content: center; }
   .gradient-text { font-size: 2rem; }
-  .card-grid, .doors { grid-template-columns: 1fr; }
+  .card-grid, .doors, .catalogue, .pricing-grid { grid-template-columns: 1fr; }
+  .seal-hero { padding: 2rem 1rem; }
 }
