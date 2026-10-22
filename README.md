@@ -1,6 +1,6 @@
 # ΩbscurAI Site Improvements
 
-Improved static pages for the obscurai.io site. Showcase sealed mathematical frameworks and black-box agents. Monetize via three doors without revealing trade secrets.
+Polished static pages for the obscurai.io site. Showcase sealed mathematical frameworks and black-box agents. Monetize via three doors without revealing trade secrets.
 
 ## Pages
 
@@ -11,7 +11,7 @@ Improved static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
 - **new-breakthrough-showcase.html** — Reusable template for new research showcases.
 - **next-breakthrough.html** — Ready-to-customize template.
-- **epoch.css** — Complete dark theme matching live site (gold/orange gradients, cards, doors).
+- **epoch.css** — Dark theme matching live site (gold/orange gradients, cards, doors).
 
 ## Design & Principles
 
