@@ -6,6 +6,8 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 
 - **index.html** — Hub linking all monetization and showcase pages.
 - **monetize-hub.html** — Central overview of Witness / Use / Hold doors, full agent catalogue, and sealed process.
+- **book-agent.html** — Streamlined booking funnel with popular agents and direct CTAs.
+- **research-portfolio.html** — Aggregated sealed showcases (sickle cell, AFCD, FiiX, etc.) with sponsorship paths.
 - **engagement.html** — Brief → Scope → Run → Deliver process.
 - **pricing.html** — Starting prices and agent examples.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
@@ -19,6 +21,6 @@ Dark theme, sealed doors language, three-door monetization (Witness / Use / Hold
 
 ## Deployment
 
-Deploy to Cloudflare Pages. Link from live /tower/, /vault/, or navigation. Contact: vault@obscurai.io
+Deploy to Cloudflare Pages. Link from live /tower/, /vault/, or navigation. Contact: [vault@obscurai.io](mailto:vault@obscurai.io)
 
 Methods stay sealed. Results delivered.
