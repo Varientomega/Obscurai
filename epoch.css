@@ -1,4 +1,4 @@
-/* === TOWER STYLES — ΩbscurAI === */
+/* Enhanced epoch.css — ΩbscurAI improvements */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
 
 :root {
@@ -27,7 +27,6 @@ body {
   min-height: 100vh;
 }
 
-/* === NAV === */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -74,7 +73,6 @@ body {
 
 .nav-links a:hover { color: var(--primary); }
 
-/* === HERO === */
 .seal-hero {
   text-align: center;
   padding: 5rem 1.5rem 3rem;
@@ -110,7 +108,6 @@ body {
   margin: 0 auto 1.5rem;
 }
 
-/* === BUTTONS === */
 .btn {
   display: inline-block;
   padding: 0.8rem 1.6rem;
@@ -122,6 +119,7 @@ body {
   cursor: pointer;
   text-align: center;
   font-size: 0.95rem;
+  margin: 0.25rem;
 }
 
 .btn-primary {
@@ -147,7 +145,6 @@ body {
 
 .btn-full { width: 100%; display: block; }
 
-/* === CARDS === */
 .card-grid, .doors, .catalogue, .pricing-grid, .agents-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -184,7 +181,6 @@ body {
   margin: 0.5rem 0;
 }
 
-/* === FOOTER === */
 .footer {
   border-top: 1px solid var(--border);
   padding: 2.5rem 1.5rem;
@@ -196,7 +192,6 @@ body {
 .footer-logo { color: var(--primary); }
 .footer-tagline { font-size: 0.9rem; margin-top: 0.5rem; }
 
-/* === UTILS === */
 .section {
   max-width: 1120px;
   margin: 0 auto;
@@ -233,4 +228,5 @@ a:hover { text-decoration: underline; }
   .gradient-text { font-size: 2.1rem; }
   .card-grid, .doors, .catalogue, .pricing-grid { grid-template-columns: 1fr; }
   .seal-hero { padding: 3rem 1rem 2rem; }
+  .btn { display: block; margin: 0.5rem auto; max-width: 280px; }
 }
