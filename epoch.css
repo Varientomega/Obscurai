@@ -166,7 +166,7 @@ body {
   box-shadow: 0 10px 32px rgba(201, 162, 39, 0.12);
 }
 
-.highlight, .featured { border-color: var(--primary); }
+.highlight, .featured { border-color: var(--primary); box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.3); }
 
 .card h3, .door h3, .item h3, .pricing-name, .price-card h3, .agent-item h4 {
   color: var(--primary);
@@ -276,4 +276,14 @@ a:hover { text-decoration: underline; }
 
 .card:hover::after, .door:hover::after {
   opacity: 1;
+}
+
+/* Novel insight polish: subtle pulse on primary doors */
+.door.highlight {
+  animation: subtlePulse 4s ease-in-out infinite;
+}
+
+@keyframes subtlePulse {
+  0%, 100% { box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.3); }
+  50% { box-shadow: 0 0 12px 2px rgba(201, 162, 39, 0.15); }
 }
