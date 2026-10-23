@@ -11,6 +11,9 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **engagement.html** — Brief → Scope → Run → Deliver process.
 - **pricing.html** — Starting prices and agent examples.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
+- **novel-breakthroughs.html** — Hub for new sealed frames and templates.
+- **zero-lattice.html** — New Zero Lattice showcase (13 kinds of zero).
+- **sealed-prime-lattice.html** — Prime Lattice sealed showcase.
 - **new-breakthrough-showcase.html** — Reusable template for new research showcases.
 - **next-breakthrough.html** — Ready-to-customize template.
 - **epoch.css** — Dark theme matching live site (gold/orange gradients, cards, doors).
@@ -24,3 +27,7 @@ Dark theme, sealed doors language, three-door monetization (Witness / Use / Hold
 Deploy to Cloudflare Pages. Link from live /tower/, /vault/, or navigation. Contact: [vault@obscurai.io](mailto:vault@obscurai.io)
 
 Methods stay sealed. Results delivered.
+
+## Novel Insight
+
+The sealed model compounds value: each new frame page opens a door that delivers verifiable outcomes while the underlying mathematics remains private, enabling scalable monetization without IP leakage.
