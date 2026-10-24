@@ -166,7 +166,7 @@ body {
   box-shadow: 0 10px 32px rgba(201, 162, 39, 0.12);
 }
 
-.highlight, .featured { border-color: var(--primary); box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.3); }
+.highlight, .featured { border-color: var(--primary); }
 
 .card h3, .door h3, .item h3, .pricing-name, .price-card h3, .agent-item h4 {
   color: var(--primary);
@@ -277,13 +277,87 @@ a:hover { text-decoration: underline; }
 .card:hover::after, .door:hover::after {
   opacity: 1;
 }
+/* Funnel additions — three-door close, claim labels, price table */
+.doors-close { border-top: 1px solid var(--border); margin-top: 3rem; }
+.doors-close h2 { font-family: 'Space Grotesk', sans-serif; margin-bottom: 0.5rem; }
+.tbc { color: var(--accent); font-size: 0.8em; font-weight: 600; white-space: nowrap; }
+.label { display: inline-block; border: 1px solid var(--primary-dim); color: var(--primary); border-radius: 2rem; padding: 0.2rem 0.8rem; font-size: 0.8rem; letter-spacing: 0.05em; margin: 0.25rem 0.25rem 0.25rem 0; }
+.table-wrap { overflow-x: auto; margin: 1.5rem 0; }
+.price-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.price-table th, .price-table td { border: 1px solid var(--border); padding: 0.75rem; text-align: left; vertical-align: top; }
+.price-table th { background: var(--bg-elevated); color: var(--primary); font-family: 'Space Grotesk', sans-serif; }
+.price-table td:first-child { font-weight: 600; }
+h2 { margin: 2rem 0 1rem; font-family: 'Space Grotesk', sans-serif; }
 
-/* Novel insight polish: subtle pulse on primary doors */
-.door.highlight {
-  animation: subtlePulse 4s ease-in-out infinite;
+/* Showcase, booking and mobile pass (23 Oct 2026) */
+html { -webkit-text-size-adjust: 100%; }
+body { overflow-x: hidden; overflow-wrap: break-word; }
+img, svg, video { max-width: 100%; height: auto; }
+.card-grid, .doors, .catalogue, .pricing-grid, .agents-list {
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
 }
+.nav-links a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 0.25rem; }
+.btn { min-height: 44px; }
+.footer-links { font-size: 0.9rem; margin-top: 0.75rem; line-height: 2.2; }
+.footer-links a { display: inline-block; padding: 0.25rem 0.15rem; }
+.labels { margin: 0 0 1.5rem; }
+.claim-table { min-width: 0; }
+.claim-table td:first-child { font-weight: 400; }
+.claim-table td:last-child { color: var(--text-muted); width: 38%; }
+.cta-band { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; justify-content: space-between; background: var(--bg-elevated); border: 1px solid var(--primary-dim); border-radius: 1rem; padding: 1.5rem 1.75rem; margin: 2.5rem 0 1rem; }
+.cta-band h2 { margin: 0 0 0.5rem; }
+.cta-band p { color: var(--text-muted); max-width: 640px; }
+.cta-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+/* booking form */
+.book-form { max-width: 720px; margin: 0 auto; }
+.book-form fieldset { border: 1px solid var(--border); border-radius: 1rem; padding: 1.25rem 1.5rem 1.5rem; margin-bottom: 1.5rem; background: var(--bg-card); }
+.book-form legend { color: var(--primary); font-family: 'Space Grotesk', sans-serif; font-weight: 700; padding: 0 0.5rem; }
+.book-form label { display: block; margin: 1rem 0 0.35rem; font-weight: 500; }
+.book-form input[type="text"], .book-form input[type="email"], .book-form select, .book-form textarea {
+  width: 100%; min-height: 44px; padding: 0.65rem 0.8rem; font: inherit; font-size: 16px; color: var(--text);
+  background: var(--bg); border: 1px solid var(--border); border-radius: 0.5rem;
+}
+.book-form input:focus, .book-form select:focus, .book-form textarea:focus { outline: 2px solid var(--primary); outline-offset: 1px; }
+.book-form .tier-opt { display: flex; gap: 0.75rem; align-items: flex-start; margin: 0.5rem 0; padding: 0.75rem; min-height: 44px; border: 1px solid var(--border); border-radius: 0.5rem; cursor: pointer; font-weight: 400; }
+.book-form .tier-opt input { margin-top: 0.3rem; width: 1.15rem; height: 1.15rem; accent-color: var(--primary); flex: none; }
+.book-form .tier-opt:has(input:checked) { border-color: var(--primary); }
+.price-hint { color: var(--primary); margin-top: 0.75rem; font-weight: 600; }
+button.btn { font: inherit; font-weight: 600; }
+@media (prefers-reduced-motion: reduce) {
+  .seal-hero::before { animation: none; }
+  .btn, .card, .door { transition: none; }
+}
+@media (max-width: 640px) {
+  .nav { position: relative; gap: 0.5rem; }
+  .nav-links { gap: 0 0.9rem; }
+  .nav-links a { font-size: 0.95rem; }
+  .section { padding: 1.5rem 1rem; }
+  .seal-hero { padding: 2.5rem 1rem 1.5rem; }
+  .seal-hero p, .hero-desc { font-size: 1.02rem; }
+  .gradient-text { font-size: 1.9rem; }
+  .kicker { letter-spacing: 0.12em; font-size: 0.75rem; }
+  .card, .door, .item, .pricing-card, .price-card, .tier, .agent-item { padding: 1.25rem; }
+  .card:hover, .door:hover, .item:hover, .pricing-card:hover, .agent-item:hover { transform: none; }
+  .price, .pricing-price { font-size: 1.25rem; }
+  h2 { font-size: 1.35rem; margin: 1.75rem 0 0.75rem; }
+  ul, ol { margin-left: 1.1rem; }
+  .step { padding: 1.1rem; }
+  .btn { max-width: 100%; }
+  .btn-full { max-width: 100%; }
+  .cta-band { padding: 1.25rem; }
+  .cta-actions { width: 100%; }
+  .cta-actions .btn { flex: 1 1 100%; }
+  .price-table th, .price-table td { padding: 0.6rem; font-size: 0.92rem; }
+  .claim-table td:last-child { width: 42%; }
+  .book-form fieldset { padding: 1rem; }
+  .tbc { white-space: normal; }
+}
+.price-table.compact { min-width: 0; }
 
+/* Upstream polish: subtle pulse on primary doors */
+.door.highlight { animation: subtlePulse 4s ease-in-out infinite; }
 @keyframes subtlePulse {
   0%, 100% { box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.3); }
   50% { box-shadow: 0 0 12px 2px rgba(201, 162, 39, 0.15); }
 }
+@media (prefers-reduced-motion: reduce) { .door.highlight { animation: none; } }

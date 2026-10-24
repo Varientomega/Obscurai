@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Agent or Briefing — ΩbscurAI</title>
+  <meta name="description" content="Book an ΩbscurAI agent rental or briefing: pick an agent, a tier (per use, hourly, or NDA), and send a prefilled request to vault@obscurai.io. Nothing charged before written scope.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ΩbscurAI">
+  <meta property="og:title" content="Book an Agent or Briefing — ΩbscurAI">
+  <meta property="og:description" content="Book an ΩbscurAI agent rental or briefing: pick an agent, a tier (per use, hourly, or NDA), and send a prefilled request to vault@obscurai.io. Nothing charged before written scope.">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="stylesheet" href="epoch.css">
+</head>
+<body>
+  <nav class="nav" aria-label="Main">
+    <a class="nav-brand" href="index.html"><span class="nav-logo">Ω</span><span class="nav-title">ΩBSCURAI</span></a>
+    <div class="nav-links">
+      <a href="https://obscurai.io/tower/">Tower</a>
+      <a href="agent-catalogue.html">Agents</a>
+      <a href="novel-breakthroughs.html">Showcases</a>
+      <a href="monetize-hub.html">Monetize</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="booking.html">Book</a>
+      <a href="mailto:vault@obscurai.io">Contact</a>
+    </div>
+  </nav>
+  <main>
+    <section class="seal-hero">
+      <div class="kicker">Booking · Agent rentals &amp; briefings</div>
+      <h1 class="gradient-text">Book an agent</h1>
+      <p class="hero-desc">Pick an agent, pick a tier, tell us the job. Your email app opens with the request filled in, addressed to vault@obscurai.io. Nothing is charged before a written scope and quote.</p>
+    </section>
+    <section class="section">
+      <form id="book" class="book-form" action="mailto:vault@obscurai.io" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>1. Agent or frame</legend>
+          <label for="agent">Agent</label>
+          <select id="agent" name="agent">
+            <option value="VERDICT" data-price="$350 per claim · $2,500 report · engagements from $7,500">VERDICT</option>
+            <option value="KEYSTONE" data-price="$750 per pack · $250/hr · audits from $5,000">KEYSTONE</option>
+            <option value="MIXWRIGHT" data-price="$1,500 per analysis · design engagements from $5,000">MIXWRIGHT</option>
+            <option value="LONG COUNT" data-price="$250/hr · engagements from $3,000">LONG COUNT</option>
+            <option value="SEALMARK" data-price="$1,500 pilot · $2,500 NDA evaluation (in build)">SEALMARK</option>
+            <option value="THE FRAMES" data-price="Pilot $3,000/month · $150/hr after launch (in build)">THE FRAMES</option>
+            <option value="ALMANAC" data-price="$49 per brief · $199 per 10">ALMANAC</option>
+            <option value="MIRROR SCREEN" data-price="Free briefing · $2,500 data room · sponsorship from $25,000">MIRROR SCREEN</option>
+            <option value="STERLING CYPHER" data-price="$1,500 research engagement">STERLING CYPHER</option>
+            <option value="ARCHITECT BRIEFINGS" data-price="$250/hr · $2,500 NDA briefing">ARCHITECT BRIEFINGS</option>
+            <option value="The Triumvirate" data-price="Demo and API prices [PRICE TO CONFIRM] · NDA license by quote">The Triumvirate</option>
+            <option value="Prime Lattice" data-price="via KEYSTONE: $750 per pack · $250/hr">Prime Lattice</option>
+            <option value="Zero Lattice" data-price="from $500 per analysis [PRICE TO CONFIRM]">Zero Lattice</option>
+            <option value="Resonance Lattice" data-price="from $650 per analysis [PRICE TO CONFIRM]">Resonance Lattice</option>
+            <option value="Manifold Lattice" data-price="from $850 / analysis [PRICE TO CONFIRM]">Manifold Lattice</option>
+            <option value="Spectral Lattice" data-price="from $900 / analysis [PRICE TO CONFIRM]">Spectral Lattice</option>
+            <option value="Duality Lattice" data-price="from $800 / analysis [PRICE TO CONFIRM]">Duality Lattice</option>
+            <option value="Entropy Lattice" data-price="from $750 / analysis [PRICE TO CONFIRM]">Entropy Lattice</option>
+            <option value="Causal Lattice" data-price="from $850 / analysis [PRICE TO CONFIRM]">Causal Lattice</option>
+            <option value="Attractor Lattice" data-price="from $750 / analysis [PRICE TO CONFIRM]">Attractor Lattice</option>
+            <option value="Omega Lattice" data-price="from $650 / analysis [PRICE TO CONFIRM]">Omega Lattice</option>
+            <option value="Shadow Insight Lattice" data-price="from $450 / analysis [PRICE TO CONFIRM]">Shadow Insight Lattice</option>
+            <option value="Not sure yet" data-price="We match your problem to an agent and quote in writing">Not sure yet</option>
+          </select>
+          <p class="price-hint" id="price-hint" aria-live="polite">Listed price: $350 per claim · $2,500 report · engagements from $7,500</p>
+        </fieldset>
+        <fieldset>
+          <legend>2. Tier</legend>
+          <div class="tier-options">
+            <label class="tier-opt"><input type="radio" name="tier" value="Witness briefing"> <span><strong>Witness</strong> · free capped briefing, 1 per org</span></label>
+            <label class="tier-opt"><input type="radio" name="tier" value="Per use" checked> <span><strong>Per use</strong> · one defined job, fixed price</span></label>
+            <label class="tier-opt"><input type="radio" name="tier" value="Hourly"> <span><strong>Hourly</strong> · $150–$250/hr where listed, hours capped in scope</span></label>
+            <label class="tier-opt"><input type="radio" name="tier" value="NDA retainer"> <span><strong>NDA</strong> · retainer or engagement under mutual NDA, from $2,500 · monthly retainer <span class="tbc">[PRICE TO CONFIRM]</span></span></label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>3. Contact and brief</legend>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="org">Organisation (optional)</label>
+          <input id="org" name="org" type="text" autocomplete="organization">
+          <label for="brief">The job: problem, data, and the result you need</label>
+          <textarea id="brief" name="brief" rows="5" placeholder="No confidential detail needed yet. We sign a mutual NDA first if you want one."></textarea>
+          <label for="when">Timing or preferred call slot (optional)</label>
+          <input id="when" name="when" type="text">
+        </fieldset>
+        <button class="btn btn-primary btn-full" type="submit">Open my email with this request</button>
+        <p class="sealed-note">This page has no backend. It opens your own email app; nothing is sent until you press send there. Prefer to write yourself? <a href="mailto:vault@obscurai.io?subject=%5BBooking%5D">vault@obscurai.io</a></p>
+      </form>
+      <h2>Listed prices</h2>
+      <div class="table-wrap">
+        <table class="price-table compact">
+          <thead>
+            <tr><th scope="col">Agent or frame</th><th scope="col">Listed price</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>VERDICT</td><td>$350 per claim · $2,500 report · engagements from $7,500</td></tr>
+            <tr><td>KEYSTONE</td><td>$750 per pack · $250/hr · audits from $5,000</td></tr>
+            <tr><td>MIXWRIGHT</td><td>$1,500 per analysis · design engagements from $5,000</td></tr>
+            <tr><td>LONG COUNT</td><td>$250/hr · engagements from $3,000</td></tr>
+            <tr><td>SEALMARK</td><td>$1,500 pilot · $2,500 NDA evaluation (in build)</td></tr>
+            <tr><td>THE FRAMES</td><td>Pilot $3,000/month · $150/hr after launch (in build)</td></tr>
+            <tr><td>ALMANAC</td><td>$49 per brief · $199 per 10</td></tr>
+            <tr><td>MIRROR SCREEN</td><td>Free briefing · $2,500 data room · sponsorship from $25,000</td></tr>
+            <tr><td>STERLING CYPHER</td><td>$1,500 research engagement</td></tr>
+            <tr><td>ARCHITECT BRIEFINGS</td><td>$250/hr · $2,500 NDA briefing</td></tr>
+            <tr><td>The Triumvirate</td><td>Demo and API prices <span class="tbc">[PRICE TO CONFIRM]</span> · NDA license by quote</td></tr>
+            <tr><td>Prime Lattice</td><td>via KEYSTONE: $750 per pack · $250/hr</td></tr>
+            <tr><td>Zero Lattice</td><td>from $500 per analysis <span class="tbc">[PRICE TO CONFIRM]</span></td></tr>
+            <tr><td>Resonance Lattice</td><td>from $650 per analysis <span class="tbc">[PRICE TO CONFIRM]</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="sealed-note">You receive results and a report. Methods, frameworks, and agent internals stay sealed. Card checkout is being set up; paid doors are invoiced by email after a written scope.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-brand"><span class="footer-logo">Ω</span> ΩbscurAI · Obscuria Research Division · Belize</div>
+    <div class="footer-tagline">Results and reports delivered. Frameworks never disclosed. Nothing charged before a written scope. <a href="mailto:vault@obscurai.io">vault@obscurai.io</a></div>
+    <div class="footer-links"><a href="monetize-hub.html">Monetize Hub</a> · <a href="pricing.html">Pricing</a> · <a href="booking.html">Book an agent</a> · <a href="lattice-atlas.html">Lattice Atlas</a> · <a href="proof-classes.html">Proof Classes</a> · <a href="written-scope.html">Written Scope</a> · <a href="why-sealed.html">Why Sealed</a> · <a href="frame-workshop.html">Frame Workshop</a> · <a href="mailto:vault@obscurai.io">vault@obscurai.io</a></div>
+  </footer>
+  <script>
+  (function () {
+    var f = document.getElementById('book'), a = document.getElementById('agent'), hint = document.getElementById('price-hint');
+    var q = new URLSearchParams(location.search);
+    function setHint() { hint.textContent = 'Listed price: ' + a.options[a.selectedIndex].getAttribute('data-price'); }
+    if (q.get('agent')) { for (var i = 0; i < a.options.length; i++) { if (a.options[i].value === q.get('agent')) a.selectedIndex = i; } }
+    if (q.get('tier')) { var r = f.querySelector('input[name="tier"][value="' + q.get('tier').replace(/"/g, '') + '"]'); if (r) r.checked = true; }
+    setHint(); a.addEventListener('change', setHint);
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (!f.reportValidity()) return;
+      var tier = f.querySelector('input[name="tier"]:checked').value;
+      var v = function (id) { return document.getElementById(id).value.trim(); };
+      var subject = '[Booking] ' + a.value + ' · ' + tier;
+      var body = 'Agent: ' + a.value + '\nTier: ' + tier + '\nListed price: ' + a.options[a.selectedIndex].getAttribute('data-price') +
+        '\n\nName: ' + v('name') + '\nEmail: ' + v('email') + '\nOrganisation: ' + v('org') +
+        '\nTiming: ' + v('when') + '\n\nThe job:\n' + v('brief') + '\n\nI understand nothing is charged before a written scope.';
+      location.href = 'mailto:vault@obscurai.io?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  })();
+  </script>
+</body>
+</html>
