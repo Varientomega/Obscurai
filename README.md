@@ -18,6 +18,7 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **zero-lattice.html** — Zero Lattice showcase (13 kinds of zero).
 - **quantum-lattice.html** — Quantum Lattice sealed showcase (superposition-like states, interference, measurement collapses).
 - **resonance-lattice.html** — Resonance Lattice sealed showcase.
+- **symmetry-lattice.html** — Symmetry Lattice sealed showcase (symmetry groups, invariants, equivariant structures).
 - **lattice-atlas.html** — Lattice Atlas: start from your question; twelve sealed frames with proof class and Use price.
 - **proof-classes.html** — What every claim label means and how buyers check results without the method.
 - **written-scope.html** — What a buyer receives before any charge.
