@@ -5,20 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agent Catalogue — Sealed Mathematical Frameworks — ΩbscurAI</title>
   <meta name="description" content="Browse black-box agents that apply proprietary frameworks. Deliver results and reports. Methods stay sealed. Book via Witness, Use, or Hold.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ΩbscurAI">
+  <meta property="og:title" content="Agent Catalogue — Sealed Mathematical Frameworks — ΩbscurAI">
+  <meta property="og:description" content="Browse black-box agents that apply proprietary frameworks. Deliver results and reports. Methods stay sealed. Book via Witness, Use, or Hold.">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0a0a0f">
   <link rel="stylesheet" href="epoch.css">
   <style>
     .filter-bar { display: flex; gap: 1rem; flex-wrap: wrap; margin: 2rem 0; justify-content: center; }
-    .filter-btn { background: var(--bg-card); border: 1px solid var(--border); color: var(--text); padding: 0.5rem 1rem; border-radius: 2rem; cursor: pointer; }
+    .filter-btn { background: var(--bg-card); border: 1px solid var(--border); color: var(--text); padding: 0.5rem 1rem; min-height: 44px; font: inherit; border-radius: 2rem; cursor: pointer; }
     .filter-btn.active, .filter-btn:hover { border-color: var(--primary); color: var(--primary); }
   </style>
 </head>
 <body>
-  <nav class="nav">
+  <nav class="nav" aria-label="Main">
     <a class="nav-brand" href="index.html"><span class="nav-logo">Ω</span><span class="nav-title">ΩBSCURAI</span></a>
     <div class="nav-links">
+      <a href="https://obscurai.io/tower/">Tower</a>
+      <a href="agent-catalogue.html">Agents</a>
+      <a href="novel-breakthroughs.html">Showcases</a>
       <a href="monetize-hub.html">Monetize</a>
-      <a href="https://obscurai.io/agents/">Live Agents</a>
       <a href="pricing.html">Pricing</a>
+      <a href="booking.html">Book</a>
       <a href="mailto:vault@obscurai.io">Contact</a>
     </div>
   </nav>
@@ -39,27 +48,28 @@
       <div class="agents-list" id="agents">
         <div class="agent-item" data-type="use">
           <h4>VERDICT</h4>
-          <p>Send one quantitative claim. Receive a sealed, pre-registered pass/fail verdict with reproducible evidence.</p>
+          <p>Send one quantitative claim. Receive a sealed pass/fail verdict, judged against criteria fixed in advance, with reproducible evidence.</p>
           <div class="price">$350 / claim · $2,500 report</div>
           <p class="sealed-note">Primary: Use · A · runnable & reproducible</p>
           <a class="btn btn-ghost btn-full mt-2" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20VERDICT%20Use">Book VERDICT</a>
         </div>
         <div class="agent-item" data-type="use">
           <h4>KEYSTONE</h4>
-          <p>Certified primality results, adversarial test sets, and audits of cryptographic number routines.</p>
+          <p>Certified primality results, hard test sets, and audits of cryptographic number routines.</p>
           <div class="price">$750 / pack · $250/hr</div>
           <p class="sealed-note">Primary: Use</p>
           <a class="btn btn-ghost btn-full mt-2" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20KEYSTONE%20Use">Book KEYSTONE</a>
         </div>
         <div class="agent-item" data-type="use">
           <h4>MIXWRIGHT</h4>
-          <p>Fastest-mixing walk or shuffle schedule for your system, with exact certificates.</p>
+          <p>The fastest-mixing schedule for your system, with a checkable guarantee.</p>
           <div class="price">$1,500 / analysis</div>
+          <a class="btn btn-ghost btn-full mt-2" href="mixwright.html">MIXWRIGHT details</a>
           <a class="btn btn-ghost btn-full mt-2" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20MIXWRIGHT">Book MIXWRIGHT</a>
         </div>
         <div class="agent-item" data-type="use">
           <h4>LONG COUNT</h4>
-          <p>Large-scale integer-sequence computation with sealed, timestamped predictions scored in public.</p>
+          <p>Large-scale sequence computation with sealed, timestamped predictions scored in public.</p>
           <div class="price">$250/hr · from $3,000</div>
           <a class="btn btn-ghost btn-full mt-2" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20LONG%20COUNT">Book LONG COUNT</a>
         </div>
@@ -89,7 +99,7 @@
         </div>
         <div class="agent-item" data-type="research">
           <h4>STERLING CYPHER</h4>
-          <p>Research into structure in ancient texts, tested against chance. Exploratory.</p>
+          <p>Research into structure in ancient texts, held to a stated proof standard. Exploratory.</p>
           <div class="price">$1,500 engagement</div>
           <a class="btn btn-ghost btn-full mt-2" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20STERLING">Research Engagement</a>
         </div>
@@ -102,13 +112,40 @@
       </div>
       <div class="mt-2 text-center">
         <p>All work starts with written scope. Nothing is charged before agreement. Methods remain sealed.</p>
-        <a class="btn btn-primary" href="https://obscurai.io/license/">Sealed License Process</a>
+        <a class="btn btn-ghost" href="https://obscurai.io/license/">Sealed License Process</a>
       </div>
+    </section>
+    <section class="section doors-close" id="doors" aria-labelledby="doors-h">
+      <h2 id="doors-h" class="text-center">Three doors: Agents</h2>
+      <p class="text-center sealed-note">You get results. Methods stay sealed. Paid doors are confirmed in writing before anything is charged.</p>
+      <div class="doors">
+        <div class="door">
+          <h3>Witness · see it</h3>
+          <div class="price">$0 · 1 per org</div>
+          <p>One briefing or capped demo per organisation. Outputs only, never the method.</p>
+          <a class="btn btn-ghost btn-full" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20Witness">Request a briefing</a>
+        </div>
+        <div class="door highlight">
+          <h3>Use · get results</h3>
+          <div class="price">from $49 / brief · $150–$250/hr · VERDICT $350 / claim</div>
+          <p>Per use or per hour. Results plus a report. Written scope and quote before any charge.</p>
+          <a class="btn btn-ghost btn-full" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20Use">Request Use</a>
+        </div>
+        <div class="door">
+          <h3>Hold · license under NDA</h3>
+          <div class="price">from $2,500 · NDA</div>
+          <p>NDA engagement or data room from $2,500. Engagements up to six figures, by quote.</p>
+          <a class="btn btn-ghost btn-full" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20Hold%20NDA">Request an NDA</a>
+        </div>
+      </div>
+      <p class="text-center"><a class="btn btn-primary" href="mailto:vault@obscurai.io?subject=%5BAgents%5D%20Book">Book an agent</a></p>
+      <p class="text-center sealed-note">Compare every offer on <a href="pricing.html">Pricing</a> · all doors in the <a href="monetize-hub.html">Monetize Hub</a>.</p>
     </section>
   </main>
   <footer class="footer">
-    <div class="footer-brand"><span class="footer-logo">Ω</span> ΩbscurAI · Belize</div>
-    <div class="footer-tagline">Methods sealed. Results delivered.</div>
+    <div class="footer-brand"><span class="footer-logo">Ω</span> ΩbscurAI · Obscuria Research Division · Belize</div>
+    <div class="footer-tagline">Results and reports delivered. Frameworks never disclosed. Nothing charged before a written scope. <a href="mailto:vault@obscurai.io">vault@obscurai.io</a></div>
+    <div class="footer-links"><a href="monetize-hub.html">Monetize Hub</a> · <a href="pricing.html">Pricing</a> · <a href="booking.html">Book an agent</a> · <a href="lattice-atlas.html">Lattice Atlas</a> · <a href="proof-classes.html">Proof Classes</a> · <a href="written-scope.html">Written Scope</a> · <a href="why-sealed.html">Why Sealed</a> · <a href="frame-workshop.html">Frame Workshop</a> · <a href="mailto:vault@obscurai.io">vault@obscurai.io</a></div>
   </footer>
   <script>
     document.querySelectorAll('.filter-btn').forEach(btn => {
