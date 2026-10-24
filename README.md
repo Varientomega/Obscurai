@@ -16,6 +16,7 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **novel-breakthroughs.html** — Hub for new sealed frames and templates.
 - **sealed-prime-lattice.html** — Prime Lattice sealed showcase.
 - **zero-lattice.html** — Zero Lattice showcase (13 kinds of zero).
+- **quantum-lattice.html** — Quantum Lattice sealed showcase (superposition-like states, interference, measurement collapses).
 - **resonance-lattice.html** — Resonance Lattice sealed showcase.
 - **lattice-atlas.html** — Lattice Atlas: start from your question; twelve sealed frames with proof class and Use price.
 - **proof-classes.html** — What every claim label means and how buyers check results without the method.
