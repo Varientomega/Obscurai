@@ -14,6 +14,10 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **pricing.html** — Witness / Use / Hold comparison table, matching the main site pricing.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
 - **novel-breakthroughs.html** — Hub for new sealed frames and templates.
+- **paradox-lattice.html** — Paradox Lattice sealed showcase (resolution of dual constraints, nested paradoxes, and apparent contradictions).
+- **leverage-lattice.html** — Leverage Lattice sealed showcase (high-leverage points, amplification structures, sealed interventions).
+- **private-edge-lattice.html** — Private Edge Lattice sealed showcase.
+- **sealed-revenue-lattice.html** — Sealed Revenue Lattice (meta-framework for multi-door monetization).
 - **information-lattice.html** — Information Lattice sealed showcase (optimal information pathways, entropy balancing, signal preservation).
 - **scale-lattice.html** — Scale Lattice sealed showcase (multi-scale hierarchical structures, scaling laws, renormalization-style mappings).
 - **coherence-lattice.html** — Coherence Lattice sealed showcase (coherent structures, synchronized components, phase relations, collective modes).
