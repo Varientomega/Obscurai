@@ -14,6 +14,7 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **pricing.html** — Witness / Use / Hold comparison table, matching the main site pricing.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
 - **novel-breakthroughs.html** — Hub for new sealed frames and templates.
+- **obscura-lattice.html** — Obscura Lattice sealed showcase (controlled opacity as generative engine for novel insights and durable private edges). From $990 Use.
 - **paradox-lattice.html** — Paradox Lattice sealed showcase (resolution of dual constraints, nested paradoxes, and apparent contradictions).
 - **leverage-lattice.html** — Leverage Lattice sealed showcase (high-leverage points, amplification structures, sealed interventions).
 - **private-edge-lattice.html** — Private Edge Lattice sealed showcase.
@@ -56,7 +57,7 @@ Methods stay sealed. Results delivered.
 
 ## Novel Insight
 
-The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge.
+The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge. Controlled opacity is the generative substrate.
 
 ## Deploy
 
