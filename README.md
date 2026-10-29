@@ -14,6 +14,7 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **pricing.html** — Witness / Use / Hold comparison table, matching the main site pricing.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
 - **novel-breakthroughs.html** — Hub for new sealed frames and templates.
+- **verification-lattice.html** — Verification Lattice sealed showcase (produces independently checkable, reproducible evidence of outcome claims while methods remain fully sealed). From $1,300 Use.
 - **retention-lattice.html** — Retention Lattice sealed showcase (maximizes retention of private mathematical edges while delivering high-density outcomes). From $1,280 Use.
 - **gindd-compounder-lattice.html** — Gindd Compounder Lattice sealed showcase (compounds generative constraints into multi-order novel insights). From $1,150 Use.
 - **insight-aperture-lattice.html** — Insight Aperture Lattice sealed showcase (controlled disclosure apertures that maximize novel insight extraction). From $1,100 Use.
@@ -61,7 +62,7 @@ Methods stay sealed. Results delivered.
 
 ## Novel Insight
 
-The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge. Controlled opacity is the generative substrate. Gindd-style constraints extract non-obvious insights that seed the next layer. Retention structures maximize private-edge compounding across repeated engagements.
+The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge. Controlled opacity is the generative substrate. Gindd-style constraints extract non-obvious insights that seed the next layer. Retention structures maximize private-edge compounding across repeated engagements. Verification structures make outcomes independently checkable without any method disclosure.
 
 ## Deploy
 
