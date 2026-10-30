@@ -14,6 +14,8 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **pricing.html** — Witness / Use / Hold comparison table, matching the main site pricing.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
 - **novel-breakthroughs.html** — Hub for new sealed frames and templates.
+- **compounding-opacity-lattice.html** — Compounding Opacity Lattice sealed showcase (controlled opacity as generative substrate for novel insights and multi-door revenue compounding). From $1,250 Use.
+- **verification-outcome-lattice.html** — Verification Outcome Lattice sealed showcase (generative constraints that produce independently checkable evidence of outcome claims while methods remain fully sealed). From $1,350 Use.
 - **verification-lattice.html** — Verification Lattice sealed showcase (produces independently checkable, reproducible evidence of outcome claims while methods remain fully sealed). From $1,300 Use.
 - **retention-lattice.html** — Retention Lattice sealed showcase (maximizes retention of private mathematical edges while delivering high-density outcomes). From $1,280 Use.
 - **gindd-compounder-lattice.html** — Gindd Compounder Lattice sealed showcase (compounds generative constraints into multi-order novel insights). From $1,150 Use.
