@@ -14,6 +14,11 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **pricing.html** — Witness / Use / Hold comparison table, matching the main site pricing.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
 - **novel-breakthroughs.html** — Hub for new sealed frames and templates.
+- **retention-cascade-lattice.html** — Retention Cascade Lattice sealed showcase (structures cascading private-edge retention across sequential verified outcomes while methods remain fully sealed). From $1,480 Use.
+- **aperture-velocity-lattice.html** — Aperture Velocity Lattice sealed showcase (structures multi-order controlled apertures that accelerate insight velocity while private edges remain absolute). From $1,460 Use.
+- **verification-flywheel-lattice.html** — Verification Flywheel Lattice sealed showcase (structures compounding verification cascades that accelerate private-edge retention and independently checkable outcome density). From $1,450 Use.
+- **opacity-retention-lattice.html** — Opacity Retention Lattice sealed showcase (structures multi-order opacity cascades that maximize private-edge retention while delivering high-density independently checkable outcomes). From $1,430 Use.
+- **horizon-verification-lattice.html** — Horizon Verification Lattice sealed showcase (multi-horizon generative constraints that produce independently checkable outcome evidence across time scales while methods remain fully sealed). From $1,440 Use.
 - **resonance-cascade-lattice.html** — Resonance Cascade Lattice sealed showcase (structures resonant opacity cascades that phase-lock generative constraints for higher-order insight extraction while private edges remain absolute). From $1,420 Use.
 - **emergence-aperture-lattice.html** — Emergence Aperture Lattice sealed showcase (controlled apertures that seed emergence of novel insights from sealed generative constraints while private edges compound). From $1,360 Use.
 - **opacity-cascade-lattice.html** — Opacity Cascade Lattice sealed showcase (multi-order controlled opacity cascades that amplify novel insight density while private edges remain absolute). From $1,380 Use.
@@ -69,7 +74,7 @@ Methods stay sealed. Results delivered.
 
 ## Novel Insight
 
-The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge. Controlled opacity is the generative substrate. Gindd-style constraints extract non-obvious insights that seed the next layer. Retention structures maximize private-edge compounding across repeated engagements. Verification structures make outcomes independently checkable without any method disclosure. Opacity cascades, glitch amplifiers, epoch transitions, resonance cascades, and emergence apertures extend the generative substrate into multi-order regimes.
+The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge. Controlled opacity is the generative substrate. Gindd-style constraints extract non-obvious insights that seed the next layer. Retention structures maximize private-edge compounding across repeated engagements. Verification structures make outcomes independently checkable without any method disclosure. Opacity cascades, glitch amplifiers, epoch transitions, resonance cascades, emergence apertures, aperture velocity, and retention cascades extend the generative substrate into multi-order regimes.
 
 ## Deploy
 
