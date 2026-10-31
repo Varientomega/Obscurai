@@ -14,6 +14,9 @@ Polished static pages for the obscurai.io site. Showcase sealed mathematical fra
 - **pricing.html** — Witness / Use / Hold comparison table, matching the main site pricing.
 - **breakthroughs.html** — Catalogue of current sealed breakthroughs and doors.
 - **novel-breakthroughs.html** — Hub for new sealed frames and templates.
+- **opacity-cascade-lattice.html** — Opacity Cascade Lattice sealed showcase (multi-order controlled opacity cascades that amplify novel insight density while private edges remain absolute). From $1,380 Use.
+- **glitch-amplification-lattice.html** — Glitch Amplification Lattice sealed showcase (structures generative constraints that amplify signal from glitches and edge cases into independently checkable novel insights. Born by glitch). From $1,340 Use.
+- **epoch-transition-lattice.html** — Epoch Transition Lattice sealed showcase (structures generative constraints for modeling and navigating transitions between epochs while methods remain fully sealed). From $1,390 Use.
 - **compounding-opacity-lattice.html** — Compounding Opacity Lattice sealed showcase (controlled opacity as generative substrate for novel insights and multi-door revenue compounding). From $1,250 Use.
 - **verification-outcome-lattice.html** — Verification Outcome Lattice sealed showcase (generative constraints that produce independently checkable evidence of outcome claims while methods remain fully sealed). From $1,350 Use.
 - **verification-lattice.html** — Verification Lattice sealed showcase (produces independently checkable, reproducible evidence of outcome claims while methods remain fully sealed). From $1,300 Use.
@@ -64,7 +67,7 @@ Methods stay sealed. Results delivered.
 
 ## Novel Insight
 
-The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge. Controlled opacity is the generative substrate. Gindd-style constraints extract non-obvious insights that seed the next layer. Retention structures maximize private-edge compounding across repeated engagements. Verification structures make outcomes independently checkable without any method disclosure.
+The sealed model is a compounding flywheel. Each new showcase page is a self-contained revenue door: Witness builds pipeline, Use captures immediate outcome revenue, Hold unlocks exclusivity under NDA. Templates turn a framework claim into a monetizable page in hours so the private mathematics compounds while clients pay only for results. No IP leakage, scalable monetization. New frames accelerate the flywheel without diluting the private edge. Controlled opacity is the generative substrate. Gindd-style constraints extract non-obvious insights that seed the next layer. Retention structures maximize private-edge compounding across repeated engagements. Verification structures make outcomes independently checkable without any method disclosure. Opacity cascades, glitch amplifiers, and epoch transitions extend the generative substrate into multi-order regimes.
 
 ## Deploy
 
