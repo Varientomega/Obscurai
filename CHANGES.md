@@ -1,3 +1,12 @@
+# CHANGES — Recursive Temporal Lattice (4 Nov 2026)
+
+## New page
+- **recursive-temporal-lattice.html** — Recursive Temporal Lattice sealed showcase (structures recursive temporal operators that nest sequential generative constraints into multi-layer independently checkable temporal densities while private edges phase-lock and compound across nested scales without leakage). From $2,850 Use. Third parties can re-run the protocol on sequential and nested temporal data. Featured on index.html and novel-breakthroughs.html.
+
+Methods stay sealed. Results delivered. Nothing charged before a written scope.
+
+---
+
 # CHANGES — Lattice family, Atlas, proof classes, written scope (23 Oct 2026, evening)
 
 Committed to main. No Stripe changes. Nothing deployed.
