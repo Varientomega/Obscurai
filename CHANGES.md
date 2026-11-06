@@ -1,3 +1,12 @@
+# CHANGES — Compounding Verification Reality Lattice (6 Nov 2026)
+
+## New page
+- **compounding-verification-reality-lattice.html** — Compounding Verification Reality Lattice sealed showcase (structures compounding verification operators that convert sequential generative constraints into independently checkable compounding real outcomes while private edges phase-lock and accelerate without leakage). From $3,680 Use. Third parties can re-run the protocol. Featured on index.html and novel-breakthroughs.html.
+
+Methods stay sealed. Results delivered. Nothing charged before a written scope. Seek novel insight; always verify to make the sealed real.
+
+---
+
 # CHANGES — Recursive Temporal Lattice (4 Nov 2026)
 
 ## New page
