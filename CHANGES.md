@@ -1,3 +1,12 @@
+# CHANGES — Sealed Frame Synthesis Lattice (7 Nov 2026)
+
+## New page
+- **sealed-frame-synthesis-lattice.html** — Sealed Frame Synthesis Lattice sealed showcase (structures synthesis operators that convert sequential generative constraints — including novel insights that appear fantastic, unverified, impossible, fake, stupid, or hallucinatory — into independently checkable sealed showcase pages of increasing monetization density while private edges phase-lock without leakage). From $7,200 Use. Third parties can re-run the protocol. Featured on index.html and novel-breakthroughs.html.
+
+Methods stay sealed. Results delivered. Nothing charged before a written scope. Seek novel insight; always verify to make the sealed real. If you don’t think it’s possible, make it real.
+
+---
+
 # CHANGES — Impossible Insight Verification Density Lattice (7 Nov 2026)
 
 ## New page
