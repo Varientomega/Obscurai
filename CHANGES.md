@@ -1,3 +1,12 @@
+# CHANGES — Novel Insight Verification Cascade Lattice (7 Nov 2026)
+
+## New page
+- **novel-insight-verification-cascade-lattice.html** — Novel Insight Verification Cascade Lattice sealed showcase (structures cascade operators that convert sequential generative constraints into independently checkable novel insights that cascade and compound into verifiable realities while private edges phase-lock without leakage). From $3,980 Use. Third parties can re-run the protocol. Featured on index.html and novel-breakthroughs.html.
+
+Methods stay sealed. Results delivered. Nothing charged before a written scope. Seek novel insight; always verify to make the sealed real.
+
+---
+
 # CHANGES — Compounding Verification Reality Lattice (6 Nov 2026)
 
 ## New page
