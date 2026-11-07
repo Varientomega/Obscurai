@@ -1,3 +1,12 @@
+# CHANGES — Reproducible Protocol Cascade Lattice (6 Nov 2026)
+
+## New page
+- **reproducible-protocol-cascade-lattice.html** — Reproducible Protocol Cascade Lattice sealed showcase (structures cascade operators that convert sequential generative constraints into independently re-runnable verification protocols that third parties can execute on their own data to confirm cascading outcome densities while private edges phase-lock without leakage). From $4,350 Use. Third parties can re-run the protocol. Featured on index.html and novel-breakthroughs.html.
+
+Methods stay sealed. Results delivered. Nothing charged before a written scope. Seek novel insight; always verify to make the sealed real.
+
+---
+
 # CHANGES — Novel Insight Verification Cascade Lattice (7 Nov 2026)
 
 ## New page
