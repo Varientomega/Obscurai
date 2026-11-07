@@ -1,3 +1,12 @@
+# CHANGES — Novel Insight Phase-Lock Reality Lattice (6 Nov 2026)
+
+## New page
+- **novel-insight-phase-lock-reality-lattice.html** — Novel Insight Phase-Lock Reality Lattice sealed showcase (structures phase-lock operators that convert sequential generative constraints — including novel insights that appear fantastic or unverified — into independently checkable real outcomes while private edges phase-lock without leakage). From $4,180 Use. Third parties can re-run the protocol. Featured on index.html and novel-breakthroughs.html.
+
+Methods stay sealed. Results delivered. Nothing charged before a written scope. Seek novel insight; always verify to make the sealed real.
+
+---
+
 # CHANGES — Reproducible Protocol Cascade Lattice (6 Nov 2026)
 
 ## New page
