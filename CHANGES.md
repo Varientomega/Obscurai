@@ -1,3 +1,12 @@
+# CHANGES — Site Improvement Verification Lattice (8 Nov 2026)
+
+## New page
+- **site-improvement-verification-lattice.html** — Site Improvement Verification Lattice sealed showcase (structures operators that seek novel insights from sequential generative constraints — including those that appear fantastic, unverified, impossible, fake, stupid, or hallucinatory — and always verify them into live, independently checkable sealed showcase pages of increasing site improvement velocity and monetization density while private edges phase-lock without leakage). From $16,500 Use. Third parties can re-run the protocol. Featured on index.html and novel-breakthroughs.html.
+
+Methods stay sealed. Results delivered. Nothing charged before a written scope. Seek novel insight; always verify to make the sealed real. If you don’t think it’s possible, make it real.
+
+---
+
 # CHANGES — Sealed Frame Synthesis Lattice (7 Nov 2026)
 
 ## New page
