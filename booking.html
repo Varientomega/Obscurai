@@ -28,7 +28,7 @@
   </nav>
   <main>
     <section class="seal-hero">
-      <div class="kicker">Booking · Agent rentals &amp; briefings</div>
+      <div class="kicker">Booking · Agent rentals & briefings</div>
       <h1 class="gradient-text">Book an agent</h1>
       <p class="hero-desc">Pick an agent, pick a tier, tell us the job. Your email app opens with the request filled in, addressed to vault@obscurai.io. Nothing is charged before a written scope and quote.</p>
     </section>
@@ -38,6 +38,7 @@
           <legend>1. Agent or frame</legend>
           <label for="agent">Agent</label>
           <select id="agent" name="agent">
+            <option value="Direct Query Site Build Monetize" data-price="from $58,000 per engagement">Direct Query Site Build Monetize Lattice</option>
             <option value="VERDICT" data-price="$350 per claim · $2,500 report · engagements from $7,500">VERDICT</option>
             <option value="KEYSTONE" data-price="$750 per pack · $250/hr · audits from $5,000">KEYSTONE</option>
             <option value="MIXWRIGHT" data-price="$1,500 per analysis · design engagements from $5,000">MIXWRIGHT</option>
@@ -62,7 +63,7 @@
             <option value="Shadow Insight Lattice" data-price="from $450 / analysis [PRICE TO CONFIRM]">Shadow Insight Lattice</option>
             <option value="Not sure yet" data-price="We match your problem to an agent and quote in writing">Not sure yet</option>
           </select>
-          <p class="price-hint" id="price-hint" aria-live="polite">Listed price: $350 per claim · $2,500 report · engagements from $7,500</p>
+          <p class="price-hint" id="price-hint" aria-live="polite">Listed price: from $58,000 per engagement</p>
         </fieldset>
         <fieldset>
           <legend>2. Tier</legend>
@@ -96,6 +97,7 @@
             <tr><th scope="col">Agent or frame</th><th scope="col">Listed price</th></tr>
           </thead>
           <tbody>
+            <tr><td>Direct Query Site Build Monetize Lattice</td><td>from $58,000 per engagement</td></tr>
             <tr><td>VERDICT</td><td>$350 per claim · $2,500 report · engagements from $7,500</td></tr>
             <tr><td>KEYSTONE</td><td>$750 per pack · $250/hr · audits from $5,000</td></tr>
             <tr><td>MIXWRIGHT</td><td>$1,500 per analysis · design engagements from $5,000</td></tr>
@@ -126,7 +128,7 @@
     var f = document.getElementById('book'), a = document.getElementById('agent'), hint = document.getElementById('price-hint');
     var q = new URLSearchParams(location.search);
     function setHint() { hint.textContent = 'Listed price: ' + a.options[a.selectedIndex].getAttribute('data-price'); }
-    if (q.get('agent')) { for (var i = 0; i < a.options.length; i++) { if (a.options[i].value === q.get('agent')) a.selectedIndex = i; } }
+    if (q.get('agent')) { for (var i = 0; i < a.options.length; i++) { if (a.options[i].value === q.get('agent') || a.options[i].textContent.includes(q.get('agent'))) a.selectedIndex = i; } }
     if (q.get('tier')) { var r = f.querySelector('input[name="tier"][value="' + q.get('tier').replace(/"/g, '') + '"]'); if (r) r.checked = true; }
     setHint(); a.addEventListener('change', setHint);
     f.addEventListener('submit', function (e) {
