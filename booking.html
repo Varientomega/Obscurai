@@ -1,1 +1,89 @@
-PLACEHOLDER_BOOKING
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book an Agent or Briefing — ΩbscurAI</title>
+  <meta name="description" content="Book an agent rental or briefing. Pick agent, tier, open prefilled email to vault@obscurai.io. Nothing charged before written scope.">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="stylesheet" href="epoch.css">
+</head>
+<body>
+  <nav class="nav" aria-label="Main">
+    <a class="nav-brand" href="index.html"><span class="nav-logo">Ω</span><span class="nav-title">ΩBSCURAI</span></a>
+    <div class="nav-links">
+      <a href="https://obscurai.io/tower/">Tower</a>
+      <a href="novel-breakthroughs.html">Showcases</a>
+      <a href="agent-catalogue.html">Agents</a>
+      <a href="monetize-hub.html">Monetize</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="booking.html">Book</a>
+      <a href="mailto:vault@obscurai.io">Contact</a>
+    </div>
+  </nav>
+  <main>
+    <section class="seal-hero">
+      <div class="kicker">Booking · Agent rentals & briefings</div>
+      <h1 class="gradient-text">Book an agent</h1>
+      <p>Pick an agent, pick a tier, tell us the job. Your email app opens with the request filled in, addressed to vault@obscurai.io. Nothing is charged before a written scope and quote.</p>
+    </section>
+    <section class="section">
+      <form class="book-form" onsubmit="openMail(event)">
+        <fieldset>
+          <legend>1. Agent or frame</legend>
+          <label for="agent">Select</label>
+          <select id="agent" name="agent">
+            <option value="build-improve-obscurai-io-website-showcase-monetize-novel-breakthroughs-v37">Build and Improve ... Lattice v37 (from $3,250,000)</option>
+            <option value="build-improve-obscurai-io-website-showcase-monetize-novel-breakthroughs-v36">Build and Improve ... Lattice v36 (from $3,150,000)</option>
+            <option value="verdict">VERDICT ($350 per claim · $2,500 report)</option>
+            <option value="keystone">KEYSTONE ($750 per pack · $250/hr)</option>
+            <option value="mixwright">MIXWRIGHT ($1,500 per analysis)</option>
+            <option value="other">Other / Custom</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>2. Tier</legend>
+          <label class="tier-opt"><input type="radio" name="tier" value="use" checked> Use · get results (per engagement / use)</label>
+          <label class="tier-opt"><input type="radio" name="tier" value="witness"> Witness · see it (capped demo)</label>
+          <label class="tier-opt"><input type="radio" name="tier" value="hold"> Hold · NDA license</label>
+        </fieldset>
+        <fieldset>
+          <legend>3. Contact and brief</legend>
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+          <label for="brief">Brief (what you need)</label>
+          <textarea id="brief" rows="5" required></textarea>
+        </fieldset>
+        <button type="submit" class="btn btn-primary btn-full">Open my email with this request</button>
+      </form>
+      <p class="sealed-note mt-2">This page has no backend. It opens your own email app; nothing is sent until you press send there. Prefer to write yourself? <a href="mailto:vault@obscurai.io">vault@obscurai.io</a></p>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-brand"><span class="footer-logo">Ω</span> ΩbscurAI · Obscuria Research Division · Belize</div>
+    <div class="footer-tagline">Results and reports delivered. Frameworks never disclosed. Nothing charged before a written scope.</div>
+  </footer>
+  <script>
+    function openMail(e) {
+      e.preventDefault();
+      const agent = document.getElementById('agent').value;
+      const tier = document.querySelector('input[name="tier"]:checked').value;
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const brief = document.getElementById('brief').value;
+      const subject = encodeURIComponent('Booking: ' + agent + ' — ' + tier);
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nAgent/Frame: ' + agent + '\nTier: ' + tier + '\nBrief:\n' + brief + '\n\nNothing charged before written scope.');
+      window.location.href = 'mailto:vault@obscurai.io?subject=' + subject + '&body=' + body;
+    }
+    // Preselect from URL param
+    const params = new URLSearchParams(window.location.search);
+    const pre = params.get('agent');
+    if (pre) {
+      const sel = document.getElementById('agent');
+      for (let o of sel.options) if (o.value.includes(pre) || pre.includes(o.value)) sel.value = o.value;
+    }
+  </script>
+</body>
+</html>
