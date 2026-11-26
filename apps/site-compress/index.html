@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Compression — Measured Results — ΩbscurAI</title>
+  <meta name="description" content="Black-box site-asset analyser. Paste HTML, CSS or JS and receive measured original size, compressed size, and savings. Methods sealed. Free public tool.">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="stylesheet" href="../../epoch.css">
+  <style>
+    .tool-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 1.75rem;
+      margin: 1.5rem 0;
+    }
+    textarea {
+      width: 100%;
+      min-height: 180px;
+      padding: 0.9rem 1rem;
+      font: inherit;
+      font-size: 14px;
+      line-height: 1.5;
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      resize: vertical;
+    }
+    textarea:focus {
+      outline: 2px solid var(--primary);
+      outline-offset: 1px;
+    }
+    .results {
+      display: none;
+      margin-top: 1.5rem;
+    }
+    .results.show { display: block; }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin: 1.25rem 0;
+    }
+    .metric {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .metric-value {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--primary);
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .metric-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .status-live {
+      display: inline-block;
+      background: rgba(74, 222, 128, 0.15);
+      color: var(--success);
+      border: 1px solid rgba(74, 222, 128, 0.35);
+      border-radius: 2rem;
+      padding: 0.2rem 0.85rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" aria-label="Main">
+    <a class="nav-brand" href="../../index.html"><span class="nav-logo">Ω</span><span class="nav-title">ΩBSCURAI</span></a>
+    <div class="nav-links">
+      <a href="https://obscurai.io/tower/">Tower</a>
+      <a href="../../agent-catalogue.html">Agents</a>
+      <a href="../../novel-breakthroughs.html">Showcases</a>
+      <a href="../../monetize-hub.html">Monetize</a>
+      <a href="../../pricing.html">Pricing</a>
+      <a href="../../booking.html">Book</a>
+      <a href="mailto:vault@obscurai.io">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="seal-hero">
+      <div class="kicker">Tower Prime · Live Tool</div>
+      <h1 class="gradient-text">Site Compression</h1>
+      <p class="hero-desc">Black-box site-asset analyser. Paste HTML, CSS or JavaScript and receive measured original size, compressed size, and exact savings. No estimates. Methods stay sealed.</p>
+      <p><span class="status-live">LIVE · MEASURED</span></p>
+    </section>
+
+    <section class="section">
+      <div class="tool-panel">
+        <label for="assetInput" style="display:block; margin-bottom:0.5rem; font-weight:600;">Paste HTML, CSS or JS</label>
+        <textarea id="assetInput" placeholder="Paste the content of a page, stylesheet or script here…" spellcheck="false"></textarea>
+
+        <div style="margin-top:1.25rem; display:flex; flex-wrap:wrap; gap:0.75rem;">
+          <button class="btn btn-primary" id="runBtn" type="button">Measure Compression</button>
+          <button class="btn btn-ghost" id="clearBtn" type="button">Clear</button>
+        </div>
+
+        <div class="results" id="results">
+          <h2 style="margin-top:0;">Measured Results</h2>
+          <div class="metric-grid">
+            <div class="metric">
+              <div class="metric-value" id="origBytes">—</div>
+              <div class="metric-label">Original bytes</div>
+            </div>
+            <div class="metric">
+              <div class="metric-value" id="compBytes">—</div>
+              <div class="metric-label">Compressed bytes</div>
+            </div>
+            <div class="metric">
+              <div class="metric-value" id="ratio">—</div>
+              <div class="metric-label">Ratio</div>
+            </div>
+            <div class="metric">
+              <div class="metric-value" id="savings">—</div>
+              <div class="metric-label">Saved</div>
+            </div>
+          </div>
+          <p class="note">Measurement performed client-side with the browser CompressionStream (DEFLATE). No data leaves your device. This is a measured result, not an estimate.</p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:2rem;">
+        <h3>What stays sealed</h3>
+        <ul>
+          <li>Any advanced proprietary compression or representation frameworks used elsewhere on the site.</li>
+          <li>Internal parameters and operator methods.</li>
+          <li>Source of any higher-order agents that may consume these measurements later.</li>
+        </ul>
+        <p class="sealed-note">This public tool deliberately uses only the browser’s standard compression API so the measurement itself is independently checkable and the proprietary methods remain black-boxed.</p>
+      </div>
+
+      <p class="mt-2 text-center">
+        <a class="btn btn-ghost" href="../../tower-prime.html">← Back to Tower Prime</a>
+        <a class="btn btn-ghost" href="mailto:vault@obscurai.io?subject=%5BSite%20Compression%5D%20Inquiry">Contact vault@obscurai.io</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand"><span class="footer-logo">Ω</span> ΩbscurAI · Obscuria Research Division · Belize</div>
+    <div class="footer-tagline">Results and reports delivered. Frameworks never disclosed. Nothing charged before a written scope.</div>
+  </footer>
+
+  <script>
+    (function () {
+      const input = document.getElementById('assetInput');
+      const runBtn = document.getElementById('runBtn');
+      const clearBtn = document.getElementById('clearBtn');
+      const results = document.getElementById('results');
+
+      async function measure(text) {
+        const encoder = new TextEncoder();
+        const data = encoder.encode(text);
+        const original = data.byteLength;
+
+        if (!window.CompressionStream) {
+          throw new Error('CompressionStream not supported in this browser');
+        }
+
+        const stream = new Blob([data]).stream().pipeThrough(new CompressionStream('gzip'));
+        const response = new Response(stream);
+        const buffer = await response.arrayBuffer();
+        const compressed = buffer.byteLength;
+
+        return { original, compressed };
+      }
+
+      function formatBytes(n) {
+        if (n < 1024) return n + ' B';
+        if (n < 1024 * 1024) return (n / 1024).toFixed(1) + ' KB';
+        return (n / (1024 * 1024)).toFixed(2) + ' MB';
+      }
+
+      runBtn.addEventListener('click', async () => {
+        const text = input.value;
+        if (!text.trim()) {
+          alert('Paste some HTML, CSS or JavaScript first.');
+          return;
+        }
+
+        runBtn.disabled = true;
+        runBtn.textContent = 'Measuring…';
+
+        try {
+          const { original, compressed } = await measure(text);
+          const ratio = (original / compressed).toFixed(2) + '×';
+          const saved = ((1 - compressed / original) * 100).toFixed(1) + '%';
+
+          document.getElementById('origBytes').textContent = formatBytes(original);
+          document.getElementById('compBytes').textContent = formatBytes(compressed);
+          document.getElementById('ratio').textContent = ratio;
+          document.getElementById('savings').textContent = saved;
+
+          results.classList.add('show');
+        } catch (err) {
+          alert('Measurement failed: ' + err.message);
+        } finally {
+          runBtn.disabled = false;
+          runBtn.textContent = 'Measure Compression';
+        }
+      });
+
+      clearBtn.addEventListener('click', () => {
+        input.value = '';
+        results.classList.remove('show');
+      });
+    })();
+  </script>
+</body>
+</html>
